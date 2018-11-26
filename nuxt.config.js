@@ -3,6 +3,10 @@ const pkg = require('./package')
 module.exports = {
   mode: 'spa',
 
+  generate: {
+    subFolders: false
+  },
+  
   /*
   ** Headers of the page
   */
@@ -17,11 +21,6 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
-  generate: {
-    subFolders: false
-  },
-
   /*
   ** Customize the progress-bar color
   */
